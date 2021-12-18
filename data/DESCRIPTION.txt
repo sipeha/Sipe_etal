@@ -1,1 +1,8 @@
 Put your raw data in here
+
+eBird data per request from eBird
+We used the XX data 
+Citation
+
+WDFW common loon data ?
+Not available to share publically

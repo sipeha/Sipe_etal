@@ -1,0 +1,8 @@
+Put results in here
+
+Figures from manuscript - generated using THISFILE.R
+-also maps using estimates from THISFILE.R, mapped into ArcMap
+Names of figures/files
+Posterior figures output from WHICHR FILE.R
+-names of figures/files
+
