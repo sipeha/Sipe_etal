@@ -1,6 +1,7 @@
 library(auk)
 library(dplyr)
 library(devtools)
+library(lubridate)
 setwd("/Users/sipeh/Desktop/eBird dataset")
 
 #AUK github and how tos: 
@@ -30,7 +31,6 @@ XA<-XA[!XA$state_province=="Oregon",]
 
 
 #remove non-summer months
-library(lubridate)
 XA$observation_date<-as.Date(XA$observation_date)
 monthA<-yearA<-dayA<-numeric(length((XA$observation_date)))
 X_ALL<-as.data.frame(XA,month,year,day)

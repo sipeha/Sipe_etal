@@ -1,15 +1,20 @@
 
-This repo is for **something**
-
-This is a good place to include things like - what JAGS/NIMBLE/R version
-and OS did you run this code on. With what settings. How long did it
-take. How much juice did it take.
+**What is the title?**
 
 ### What this work is all about
 
 ### Contents of the repo
 
+**Data** **Scripts** 1.) EBird\_Auk\_filtering.R: 2.) SPfilteredEBird.R
+& FormattedData.R 3.) NimbleOccModel.R 4.) PosteriorsandTables.R,
+PredictionsandFigs.R, & ConvergeDiag.R **Figures** Figures found in
+manuscript Folder with posterior estimates from coefficients and key
+parameters
+
 ### Packages and versions
+
+nimble auk coda ggplot2 devtools dplyr data.table lubridate bayesplot
+cowplot
 
 ### Data
 
