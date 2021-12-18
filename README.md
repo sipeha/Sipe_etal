@@ -1,8 +1,16 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+\#What this work is all about
 
-This repo is to provide a general template for project structures, and is also a place for folks to place handy example scripts. 
+\#Contents of the repo
 
-In general, READMeE's are a good place to include things like - what JAGS/NIMBLE/R version
+\#Packages and versions
+
+\#Data
+
+\#Use of this repo
+
+This repo is for **something**
+
+This is a good place to include things like - what JAGS/NIMBLE/R version
 and OS did you run this code on. With what settings. How long did it
 take. How much juice did it take.
