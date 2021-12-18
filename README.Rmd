@@ -18,10 +18,10 @@ knitr::opts_chunk$set(
 ### Contents of the repo
 **Data**
 **Scripts**
-1.) EBird_Auk_filtering.R: 
-2.) SPfilteredEBird.R & FormattedData.R
-3.) NimbleOccModel.R
-4.) PosteriorsandTables.R, PredictionsandFigs.R, & ConvergeDiag.R
+1. EBird_Auk_filtering.R: 
+2. SPfilteredEBird.R & FormattedData.R
+3. NimbleOccModel.R
+4. PosteriorsandTables.R, PredictionsandFigs.R, & ConvergeDiag.R
 **Figures**
 Figures found in manuscript
 Folder with posterior estimates from coefficients and key parameters
