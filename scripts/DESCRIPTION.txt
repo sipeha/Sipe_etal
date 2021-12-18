@@ -1,1 +1,20 @@
 Put scripts in here
+
+For version and package information see ReadME file
+
+1.) EBird_Auk_filtering
+-then mapped into ArcMap
+-Each observation given a buffer of the user input observation distance for 
+Area and Travelling checklists. For Stationary protocol, a 20 meter buffer was assigned
+-Observations with their buffered distance were intersected with the closest waterbody
+-Matrix output from ArcMap merged site covariates with COLO observation
+  -waterbody area and perimeter from NHD dataset (citation), elevation at the site(citation), human influenced index (hii, citation), NLCD land type at each site (citation), and the eBird/WDFW observation information from original data
+2.) SPfilteredEBird & FormattedData
+-combine output from ArcMap, remove duplicates, format, and merge together
+- Then use this matrix to format data into matrices and arrays to use in the model
+4.) NimbleOccModel
+-model code for running occupancy model using the formatted data
+5.) ResultsPredandFigs & PosteriorsandTables & ConvergeDiag
+-Convergence diagnostics and posterior distribution checks
+-use model output to get estimates at each site, make figures, and to predict to sites not in the model
+-Output matrix for site specific estimates to be mapped into ArcMap
