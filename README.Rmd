@@ -2,6 +2,13 @@
 output: github_document
 ---
 
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
 What this work is all about
 
 Contents of the repo
@@ -11,13 +18,6 @@ Packages and versions
 Data
 
 Use of this repo
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
 
 This repo is for **something**
 
