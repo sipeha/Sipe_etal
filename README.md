@@ -1,9 +1,19 @@
 
-**What is the title?**
+#### Integrating community science and agency-collected monitoring data to expand monitoring capacity at large spatial scales
 
-### What this work is all about
+#### Contents of this repository
 
-### Contents of the repo
+1.  Data Folder File with eBird data access query information and links
+    to download site covariate data for use in ArcMap Washington
+    Department of Fish and Wildlife Common Loon observation data from
+    2017
+
+2.  Scripts R scripts for filtering eBird data to map in ArcMap
+    Formatting spatially filtered eBird data with WDFW data for use in
+    the occupancy model Nimble multi-state occupancy model script to run
+    the model Files to generate figures and parameter estimates
+
+3.  Figures
 
 **Data** eBird Basic Dataset is available through request at ebird.org
 (<https://ebird.org/data/download>). The query for the basic dataset
@@ -53,6 +63,15 @@ U.S. Geological Survey. 2018. National Hydrography Dataset (ver. USGS
 National Hydrography Dataset Best Resolution (NHD) for Hydrologic Unit
 (HU) 4 - 2001).
 
+### Use of this repository
+
+This repository -Framework for filtering and formatting eBird data for
+use in an occupancy model, data sources for site covariate data. Note
+that ArcMap was used to combine site-specific covariate data with
+observation data (no script included for this step) -Nimble multi-state
+occupancy model script utilizing both eBird and state monitoring data
+-Figures and parameter estimates from MCMC output
+
 **Scripts**
 
 1.  EBird\_Auk\_filtering.R:
@@ -66,7 +85,7 @@ National Hydrography Dataset Best Resolution (NHD) for Hydrologic Unit
 **Figures** Figures found in manuscript Folder with posterior estimates
 from coefficients and key parameters
 
-### Packages and versions
+### Required Packages
 
 nimble
 
@@ -87,7 +106,3 @@ lubridate
 bayesplot
 
 cowplot
-
-### Data
-
-### Use of this repo
