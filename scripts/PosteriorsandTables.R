@@ -1,18 +1,14 @@
 library(coda)
 library(data.table)
 
-setwd("C:/Users/Hannah Sipe/Desktop/")
-
-
-out1<-(as.data.frame(fread(file="June2122222", sep=",", quote='"',
-                           header=T, data.table=T)[,]))
-
-out2<-(as.data.frame(fread(file="June2133333", sep=",", quote='"',
-                           header=T, data.table=T)[,]))
-out3<-(as.data.frame(fread(file="June2144444", sep=",", quote='"',
-                           header=T, data.table=T)[,]))
-
-out<-rbind(out1, out2, out3)
+#load in MCMC model outout
+# out1<-(as.data.frame(fread(file="VS1", sep=",", quote='"',
+#                            header=T, data.table=T)[,]))
+# 
+# out2<-(as.data.frame(fread(file="VS2", sep=",", quote='"',
+#                            header=T, data.table=T)[,]))
+# 
+# out<-rbind(out1, out2)
 
 ##################
 #posterior figures for all parameters

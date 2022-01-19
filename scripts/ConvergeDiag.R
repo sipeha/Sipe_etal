@@ -1,22 +1,20 @@
 library(coda)
 library(data.table)
 
-setwd("C:/Users/Hannah Sipe/Desktop/")
+#load in MCMC model outout
+# out1<-(as.data.frame(fread(file="VS1", sep=",", quote='"',
+#                            header=T, data.table=T)[,]))
+# 
+# out2<-(as.data.frame(fread(file="VS2", sep=",", quote='"',
+#                            header=T, data.table=T)[,]))
+# 
 
-out2<-(as.data.frame(fread(file="June2122222", sep=",", quote='"',
-                           header=T, data.table=T)[,]))
-out3<-(as.data.frame(fread(file="June2133333", sep=",", quote='"',
-                           header=T, data.table=T)[,]))
 
-
+x11<-as.mcmc(out1[,-1]) #remove first column which is the index from 1:nsamples
 x22<-as.mcmc(out2[,-1])
-x33<-as.mcmc(out3[,-1])
-out.mcmc <- as.mcmc.list(list(x22,x33))
+out.mcmc <- as.mcmc.list(list(x11,x22))
 v<-gelman.diag(out.mcmc, multivariate = T, transform = F)
 v
 
-acd<-autocorr.diag(out.mcmc)
-pdf("VS_acf_81.pdf")
-autocorr.plot(out.mcmc)
-dev.off()
+
 

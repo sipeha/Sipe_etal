@@ -1,45 +1,46 @@
 library(coda)
 library(data.table)
 
-out1<-(as.data.frame(fread(file="C:/Users/Hannah Sipe/Desktop/VS Model Runs/Oct22_VS1", sep=",", quote='"',
-                           header=T, data.table=T)[,]))
-
-out2<-(as.data.frame(fread(file="C:/Users/Hannah Sipe/Desktop/VS Model Runs/Oct22_VS2", sep=",", quote='"',
-                           header=T, data.table=T)[,]))
-
-out<-rbind(out1, out2)
+#load in MCMC model outout
+# out1<-(as.data.frame(fread(file="VS1", sep=",", quote='"',
+#                            header=T, data.table=T)[,]))
+# 
+# out2<-(as.data.frame(fread(file="VS2", sep=",", quote='"',
+#                            header=T, data.table=T)[,]))
+# 
+# out<-rbind(out1, out2)
 
 #read in the covariate data
-load("DATA1111.Rdata")
+#can be found in:
+#SitesandCovs.csv
+sitecovs<-read.csv("data/SitesandCovs.csv", header=T)
 
 #site covs and data for those sites not in the model
-habitatAll<-read.csv("habitatAll1111.csv")
-datAll<-read.csv("datwpred1119.csv")[,2:28]
+
 #set constants
 N<-766
 N2<-2324 #all sites 
-T<-18
+T<-18 #total number of years
 
 ####Scale and center the covariates from the model
-elev_mN<-scale(sitecovs$elev_m[1:N])
-hiiN<-scale(sitecovs$hii[1:N])
-pcN<-scale(sitecovs$periCom[1:N])
-areaN<-scale(sitecovs$areaSQKM[1:N])
-canopyN<-scale(sitecovs$canopy[1:N])
+elev_mN<-scale(sitecovs$Elevation_m[1:N])
+hiiN<-scale(sitecovs$HII[1:N])
+pcN<-scale(sitecovs$Perimeter.Complexity[1:N])
+areaN<-scale(sitecovs$AreaSKM[1:N])
+canopyN<-scale(sitecovs$Percent.Canopy.Cover[1:N])
 
 #Scale and center the covariates both in the model and not, using the same scale and center
 #as the covariates from model fitting
-hii<-scale(datAll$hii, center=attributes(hiiN)$`scaled:center`, 
+hii<-scale(sitecovs$HII, center=attributes(hiiN)$`scaled:center`, 
            scale=attributes(hiiN)$`scaled:scale`)
-area<-scale(datAll$NHD_AreaSKM, center=attributes(areaN)$`scaled:center`,
+area<-scale(sitecovs$AreaSKM, center=attributes(areaN)$`scaled:center`,
             scale=attributes(areaN)$`scaled:scale`)
-elev<-scale(datAll$elev_m, center=attributes(elev_mN)$`scaled:center`,
+elev<-scale(sitecovs$Elevation_m, center=attributes(elev_mN)$`scaled:center`,
             scale=attributes(elev_mN)$`scaled:scale`)
-pericom<-datAll$NHD_Perimeter/sqrt(datAll$NHD_AreaSKM)
-pc<-scale(pericom, 
+pc<-scale(sitecovs$Perimeter.Complexity, 
           center=attributes(pcN)$`scaled:center`,
           scale=attributes(pcN)$`scaled:scale`)
-canopy<-scale(datAll$canopy, center=attributes(canopyN)$`scaled:center`,
+canopy<-scale(sitecovs$Percent.Canopy.Cover, center=attributes(canopyN)$`scaled:center`,
               scale=attributes(canopyN)$`scaled:scale`)
 
 #######################
@@ -55,9 +56,9 @@ X[,3]<-hii
 X[,4]<-pc
 X[,5]<-area
 X[,6]<-canopy
-X[,7]<-habitat$X11
-X[,8]<-habitat$X2
-X[,9]<-habitat$X31
+X[,7]<-sitecovs$Forest.Type
+X[,8]<-sitecovs$Developed.Type
+X[,9]<-sitecovs$Other.Type
 
 
 

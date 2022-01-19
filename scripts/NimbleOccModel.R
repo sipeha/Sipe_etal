@@ -1,7 +1,6 @@
-setwd("C:/Users/Hannah Sipe/Desktop/")
 #for running NIMBLE on windows
-Sys.setenv(PATH=paste("C:/Rtools/bin", Sys.getenv("PATH"), sep=";"))
-Sys.setenv(BINPREF="C:/Rtools/mingw_$(WIN)/bin/")
+# Sys.setenv(PATH=paste("C:/Rtools/bin", Sys.getenv("PATH"), sep=";"))
+# Sys.setenv(BINPREF="C:/Rtools/mingw_$(WIN)/bin/")
 
 library(nimble)
 
@@ -197,7 +196,7 @@ getFocalOcc<-nimbleFunction(
   })
 
 #load in data arrays - output from FormattedData.R
-load("DATA1111.Rdata")
+#load("DATA.Rdata")
 N<-766
 T<-18
 J1<-10 #####change this to reflect how many
@@ -217,9 +216,9 @@ dat1<-list(y=y,
            hii=scale(sitecovs$hii[1:N]),
            pc=scale(sitecovs$periCom[1:N]),
            canopy=scale(sitecovs$canopy[1:N]),
-           x11=habitat$X11[1:N],
-           x2=habitat$X2[1:N],
-           x31=habitat$X31[1:N],
+           x11=sitecovs$Forest.Type[1:N],
+           x2=sitecovs$Developed.Type[1:N],
+           x31=sitecovs$Other.Type[1:N],
            #covariates for detection
            timeobs=array(scale(covdata$timeobs[1:N, 1:T, 1:J1]), dim=c(N,T,J1)),
            dur=array(scale(covdata$dur_m[1:N, 1:T, 1:J1]), dim=c(N,T,J1)),

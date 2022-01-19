@@ -1,0 +1,144 @@
+"","EffortDate","STARTTIME","ENDTIME","EffortSource","Lat_SPNAD83HARN","Long_SPNAD83HARN","CountyName","SiteName","Quantity","LifeStage","OCCPRODCODE","OccProdCode_Desc","obsOCC","duration_minutes","day","month","year"
+"1","6/6/17","","","WDFW survey",48.72742722,-117.5530411,"Pend Oreille","BIG MEADOW LAKE 2",2,"Adult",6,"Nest occupied, active (breeding)",2,NA,6,6,17
+"2","6/14/17","","","WDFW survey",48.72742722,-117.5530411,"Pend Oreille","BIG MEADOW LAKE 2",2,"Adult",6,"Nest occupied, active (breeding)",2,NA,14,6,17
+"3","8/9/17","","","WDFW survey",48.72742722,-117.5530411,"Pend Oreille","BIG MEADOW LAKE 2",2,"Adult",50,"Productivity unsuccessful or nest empty",1,NA,9,8,17
+"4","5/31/17","15:20","16:00","WDFW survey",48.566236,-117.626416,"Stevens","BLACK LAKE - STEVENS CO.",2,"Egg",6,"Nest occupied, active (breeding)",2,40,31,5,17
+"5","5/31/17","15:20","16:00","WDFW survey",48.566236,-117.626416,"Stevens","BLACK LAKE - STEVENS CO.",2,"Adult",6,"Nest occupied, active (breeding)",2,40,31,5,17
+"6","6/20/17","10:00","12:00","WDFW survey",48.566236,-117.626416,"Stevens","BLACK LAKE - STEVENS CO.",1,"Juvenile",60,"Productivity successful, number of young known",2,120,20,6,17
+"7","6/20/17","10:00","12:00","WDFW survey",48.566236,-117.626416,"Stevens","BLACK LAKE - STEVENS CO.",2,"Adult",60,"Productivity successful, number of young known",2,120,20,6,17
+"8","8/2/17","12:00","13:00","WDFW survey",48.566236,-117.626416,"Stevens","BLACK LAKE - STEVENS CO.",1,"Adult",60,"Productivity successful, number of young known",2,60,2,8,17
+"9","8/2/17","12:00","13:00","WDFW survey",48.566236,-117.626416,"Stevens","BLACK LAKE - STEVENS CO.",1,"Juvenile",60,"Productivity successful, number of young known",2,60,2,8,17
+"10","6/20/17","","","WDFW survey",48.57625891,-117.5537516,"Stevens","COFFIN LAKE",1,"Adult",4,"Single bird, nest unrepaired or pair not near known nest site",1,NA,20,6,17
+"11","6/7/17","10:30","11:30","WDFW survey",48.98688225,-117.3125975,"Pend Oreille","CRESCENT LAKE",1,"Adult",4,"Single bird, nest unrepaired or pair not near known nest site",1,60,7,6,17
+"12","6/23/17","9:30","12:00","WDFW survey",48.73704572,-118.667629,"Ferry","CURLEW LAKE",6,"Adult",5,"Nest occupied, activity unknown",1,150,23,6,17
+"13","6/26/17","10:00","11:00","WDFW survey",48.7384756,-118.2307344,"Ferry","DAVIS LAKE - FERRY COUNTY",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,60,26,6,17
+"14","6/29/17","13:00","14:00","WDFW survey",48.81054095,-118.7129246,"Ferry","EMPIRE LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,60,29,6,17
+"15","5/31/17","11:30","12:30","WDFW survey",48.05564431,-117.4066635,"Pend Oreille","FAN LAKE",NA,"",3,"Nest occupancy unknown",0,60,31,5,17
+"16","6/5/17","","","WDFW survey",48.52252648,-118.8146307,"Ferry","FERRY LAKE",2,"Adult",6,"Nest occupied, active (breeding)",2,NA,5,6,17
+"17","8/8/17","10:00","10:00","WDFW survey",48.52252648,-118.8146307,"Ferry","FERRY LAKE",1,"Juvenile",60,"Productivity successful, number of young known",2,0,8,8,17
+"18","8/8/17","10:00","10:00","WDFW survey",48.52252648,-118.8146307,"Ferry","FERRY LAKE",2,"Adult",60,"Productivity successful, number of young known",2,0,8,8,17
+"19","6/7/17","13:00","14:00","WDFW survey",48.91737252,-117.3554387,"Pend Oreille","LEDBETTER LAKE",2,"Adult",5,"Nest occupied, activity unknown",1,60,7,6,17
+"20","8/10/17","14:00","14:30","WDFW survey",48.91737252,-117.3554387,"Pend Oreille","LEDBETTER LAKE",NA,"",10,"",0,30,10,8,17
+"21","6/5/17","","","WDFW survey",48.50009737,-118.812501,"Ferry","LONG LAKE 5",2,"Adult",6,"Nest occupied, active (breeding)",2,NA,5,6,17
+"22","6/5/17","","","WDFW survey",48.50009737,-118.812501,"Ferry","LONG LAKE 5",2,"Juvenile",6,"Nest occupied, active (breeding)",2,NA,5,6,17
+"23","8/8/17","11:40","12:35","WDFW survey",48.50009737,-118.812501,"Ferry","LONG LAKE 5",2,"Adult",60,"Productivity successful, number of young known",2,55.0000000000001,8,8,17
+"24","8/8/17","11:40","12:35","WDFW survey",48.50009737,-118.812501,"Ferry","LONG LAKE 5",1,"Juvenile",60,"Productivity successful, number of young known",2,55.0000000000001,8,8,17
+"25","6/10/17","14:30","15:30","WDFW survey",48.65680349,-117.4725139,"Pend Oreille","NILE LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,60,10,6,17
+"26","6/6/17","14:00","15:00","WDFW survey",48.40469527,-117.1813333,"Pend Oreille","NORTH SKOOKUM LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,60,6,6,17
+"27","6/6/17","","","WDFW survey",48.39268801,-117.1818421,"Pend Oreille","SOUTH SKOOKUM LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,6,6,17
+"28","6/2/17","10:30","14:30","WDFW survey",48.91175392,-118.1412812,"Stevens","PIERRE LAKE 2",2,"Adult",6,"Nest occupied, active (breeding)",2,240,2,6,17
+"29","8/10/17","11:45","12:50","WDFW survey",48.91175392,-118.1412812,"Stevens","PIERRE LAKE 2",2,"Juvenile",60,"Productivity successful, number of young known",2,65,10,8,17
+"30","8/10/17","11:45","12:50","WDFW survey",48.91175392,-118.1412812,"Stevens","PIERRE LAKE 2",2,"Adult",60,"Productivity successful, number of young known",2,65,10,8,17
+"31","6/27/17","14:30","15:30","WDFW survey",48.49103714,-117.7116899,"Stevens","STARVATION LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,60,27,6,17
+"32","6/2/17","11:30","13:00","WDFW survey",48.95866476,-118.126862,"Stevens","SUMMIT LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,90,2,6,17
+"33","6/5/17","","","WDFW survey",48.51079746,-118.835701,"Ferry","SWAN LAKE 3",2,"Juvenile",6,"Nest occupied, active (breeding)",2,NA,5,6,17
+"34","6/5/17","","","WDFW survey",48.51079746,-118.835701,"Ferry","SWAN LAKE 3",2,"Adult",6,"Nest occupied, active (breeding)",2,NA,5,6,17
+"35","8/8/17","","","WDFW survey",48.51079746,-118.835701,"Ferry","SWAN LAKE 3",2,"Adult",60,"Productivity successful, number of young known",2,NA,8,8,17
+"36","8/8/17","","","WDFW survey",48.51079746,-118.835701,"Ferry","SWAN LAKE 3",2,"Juvenile",60,"Productivity successful, number of young known",2,NA,8,8,17
+"37","6/6/17","","","WDFW survey",48.61289449,-117.3287035,"Pend Oreille","YOCUM LAKE",1,"Egg",6,"Nest occupied, active (breeding)",2,NA,6,6,17
+"38","6/6/17","","","WDFW survey",48.61289449,-117.3287035,"Pend Oreille","YOCUM LAKE",1,"Adult",6,"Nest occupied, active (breeding)",2,NA,6,6,17
+"39","8/3/17","","","WDFW survey",48.61289449,-117.3287035,"Pend Oreille","YOCUM LAKE",NA,"",50,"Productivity unsuccessful or nest empty",1,NA,3,8,17
+"40","6/20/17","","","WDFW survey",48.62577684,-117.5385321,"Stevens","LAKE THOMAS",NA,"",3,"Nest occupancy unknown",0,NA,20,6,17
+"41","6/23/17","19:00","20:00","WDFW survey",48.67916539,-119.5111784,"Okanogan","AENEAS LAKE",2,"Sub-adult",5,"Nest occupied, activity unknown",1,60,23,6,17
+"42","5/3/17","12:00","12:30","WDFW survey",48.85378333,-118.9802389,"Okanogan","BEAVER LAKE",2,"Adult",6,"Nest occupied, active (breeding)",2,30,3,5,17
+"43","5/12/17","13:30","13:45","WDFW survey",48.85378333,-118.9802389,"Okanogan","BEAVER LAKE",2,"Adult",6,"Nest occupied, active (breeding)",2,15,12,5,17
+"44","6/7/17","12:41","14:00","WDFW survey",48.85378333,-118.9802389,"Okanogan","BEAVER LAKE",2,"Adult",50,"Productivity unsuccessful or nest empty",1,79,7,6,17
+"45","6/16/17","14:00","14:25","WDFW survey",48.85378333,-118.9802389,"Okanogan","BEAVER LAKE",2,"Adult",50,"Productivity unsuccessful or nest empty",1,25,16,6,17
+"46","7/10/17","17:20","17:36","WDFW survey",48.85378333,-118.9802389,"Okanogan","BEAVER LAKE",3,"Adult",50,"Productivity unsuccessful or nest empty",1,16.0000000000002,10,7,17
+"47","7/23/17","15:00","16:00","WDFW survey",48.85378333,-118.9802389,"Okanogan","BEAVER LAKE",2,"Adult",50,"Productivity unsuccessful or nest empty",1,60,23,7,17
+"48","5/3/17","11:45","12:00","WDFW survey",48.859741,-118.99081,"Okanogan","BETH LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,15,3,5,17
+"49","5/12/17","13:45","14:00","WDFW survey",48.859741,-118.99081,"Okanogan","BETH LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,15,12,5,17
+"50","5/23/17","15:28",":","Other survey",48.859741,-118.99081,"Okanogan","BETH LAKE 2",1,"Adult",6,"Nest occupied, active (breeding)",2,NA,23,5,17
+"51","6/7/17","14:00","14:20","WDFW survey",48.859741,-118.99081,"Okanogan","BETH LAKE 2",2,"Adult",6,"Nest occupied, active (breeding)",2,20,7,6,17
+"52","6/16/17","14:30","15:30","WDFW survey",48.859741,-118.99081,"Okanogan","BETH LAKE 2",2,"Adult",6,"Nest occupied, active (breeding)",2,60,16,6,17
+"53","6/28/17","9:30","10:00","WDFW survey",48.859741,-118.99081,"Okanogan","BETH LAKE 2",2,"Adult",50,"Productivity unsuccessful or nest empty",1,30,28,6,17
+"54","7/10/17","17:00","17:15","WDFW survey",48.859741,-118.99081,"Okanogan","BETH LAKE 2",2,"Adult",50,"Productivity unsuccessful or nest empty",1,15,10,7,17
+"55","7/23/17","10:00","11:00","WDFW survey",48.859741,-118.99081,"Okanogan","BETH LAKE 2",2,"Adult",50,"Productivity unsuccessful or nest empty",1,60,23,7,17
+"56","6/15/17","15:00","15:30","WDFW survey",48.68855434,-119.6959741,"Okanogan","BLUE LAKE - SINLAHEKIN",1,"Adult",4,"Single bird, nest unrepaired or pair not near known nest site",1,30,15,6,17
+"57","7/6/17","14:00","14:30","WDFW survey",48.68855434,-119.6959741,"Okanogan","BLUE LAKE - SINLAHEKIN",2,"Adult",7,"Nest occupied, inactive",1,30,6,7,17
+"58","5/3/17","13:15","13:45","WDFW survey",48.79707466,-119.059179,"Okanogan","BONAPARTE LAKE SOUTH",2,"Adult",5,"Nest occupied, activity unknown",1,30,3,5,17
+"59","5/16/17","11:15","11:40","WDFW survey",48.79707466,-119.059179,"Okanogan","BONAPARTE LAKE SOUTH",2,"Adult",6,"Nest occupied, active (breeding)",2,25,16,5,17
+"60","6/7/17","11:00","11:45","WDFW survey",48.79707466,-119.059179,"Okanogan","BONAPARTE LAKE SOUTH",1,"Adult",6,"Nest occupied, active (breeding)",2,45,7,6,17
+"61","6/16/17","10:30","11:30","WDFW survey",48.79707466,-119.059179,"Okanogan","BONAPARTE LAKE SOUTH",1,"Juvenile",70,"Productivity successful, number of young unknown",2,60,16,6,17
+"62","6/16/17","10:30","11:30","WDFW survey",48.79707466,-119.059179,"Okanogan","BONAPARTE LAKE SOUTH",2,"Adult",70,"Productivity successful, number of young unknown",2,60,16,6,17
+"63","7/23/17","8:30","9:00","WDFW survey",48.79707466,-119.059179,"Okanogan","BONAPARTE LAKE SOUTH",2,"Adult",60,"Productivity successful, number of young known",2,30,23,7,17
+"64","7/23/17","8:30","9:00","WDFW survey",48.79707466,-119.059179,"Okanogan","BONAPARTE LAKE SOUTH",2,"Juvenile",60,"Productivity successful, number of young known",2,30,23,7,17
+"65","5/3/17","13:15","13:45","WDFW survey",48.80412425,-119.0469405,"Okanogan","BONAPARTE LAKE NORTH",2,"Adult",5,"Nest occupied, activity unknown",1,30,3,5,17
+"66","5/16/17","17:00","17:45","WDFW survey",48.80412425,-119.0469405,"Okanogan","BONAPARTE LAKE NORTH",1,"Adult",6,"Nest occupied, active (breeding)",2,45,16,5,17
+"67","6/7/17","11:00","11:45","WDFW survey",48.80412425,-119.0469405,"Okanogan","BONAPARTE LAKE NORTH",1,"Juvenile",60,"Productivity successful, number of young known",2,45,7,6,17
+"68","6/7/17","11:00","11:45","WDFW survey",48.80412425,-119.0469405,"Okanogan","BONAPARTE LAKE NORTH",2,"Adult",60,"Productivity successful, number of young known",2,45,7,6,17
+"69","6/16/17","11:35","11:50","WDFW survey",48.80412425,-119.0469405,"Okanogan","BONAPARTE LAKE NORTH",2,"Adult",60,"Productivity successful, number of young known",2,15,16,6,17
+"70","6/16/17","11:35","11:50","WDFW survey",48.80412425,-119.0469405,"Okanogan","BONAPARTE LAKE NORTH",1,"Juvenile",60,"Productivity successful, number of young known",2,15,16,6,17
+"71","7/21/17","10:00","16:00","WDFW survey",48.80412425,-119.0469405,"Okanogan","BONAPARTE LAKE NORTH",1,"Juvenile",60,"Productivity successful, number of young known",2,360,21,7,17
+"72","7/21/17","10:00","16:00","WDFW survey",48.80412425,-119.0469405,"Okanogan","BONAPARTE LAKE NORTH",2,"Adult",60,"Productivity successful, number of young known",2,360,21,7,17
+"73","5/18/17","9:15","9:45","WDFW survey",48.48199775,-119.2180007,"Okanogan","CRAWFISH LAKE",2,"Adult",6,"Nest occupied, active (breeding)",2,30,18,5,17
+"74","6/14/17","8:50","9:20","WDFW survey",48.48199775,-119.2180007,"Okanogan","CRAWFISH LAKE",1,"Juvenile",6,"Nest occupied, active (breeding)",2,30,14,6,17
+"75","6/14/17","8:50","9:20","WDFW survey",48.48199775,-119.2180007,"Okanogan","CRAWFISH LAKE",2,"Adult",6,"Nest occupied, active (breeding)",2,30,14,6,17
+"76","6/23/17","10:00","11:30","WDFW survey",48.48199775,-119.2180007,"Okanogan","CRAWFISH LAKE",1,"Juvenile",60,"Productivity successful, number of young known",2,90,23,6,17
+"77","6/23/17","10:00","11:30","WDFW survey",48.48199775,-119.2180007,"Okanogan","CRAWFISH LAKE",2,"Adult",60,"Productivity successful, number of young known",2,90,23,6,17
+"78","9/1/17","15:00","15:30","WDFW survey",48.48199775,-119.2180007,"Okanogan","CRAWFISH LAKE",1,"Adult",60,"Productivity successful, number of young known",2,30,1,9,17
+"79","9/1/17","15:00","15:30","WDFW survey",48.48199775,-119.2180007,"Okanogan","CRAWFISH LAKE",1,"Juvenile",60,"Productivity successful, number of young known",2,30,1,9,17
+"80","5/12/17","12:30","13:00","WDFW survey",48.84882887,-119.0550628,"Okanogan","LOST LAKE",2,"Adult",6,"Nest occupied, active (breeding)",2,30,12,5,17
+"81","5/12/17","6:00","16:30","WDFW survey",48.84882887,-119.0550628,"Okanogan","LOST LAKE",2,"Adult",6,"Nest occupied, active (breeding)",2,630,12,5,17
+"82","6/7/17","14:20","17:00","WDFW survey",48.84882887,-119.0550628,"Okanogan","LOST LAKE",2,"Adult",60,"Productivity successful, number of young known",2,160,7,6,17
+"83","6/7/17","14:20","17:00","WDFW survey",48.84882887,-119.0550628,"Okanogan","LOST LAKE",2,"Juvenile",60,"Productivity successful, number of young known",2,160,7,6,17
+"84","7/22/17","11:00","14:00","WDFW survey",48.84882887,-119.0550628,"Okanogan","LOST LAKE",2,"Juvenile",60,"Productivity successful, number of young known",2,180,22,7,17
+"85","7/22/17","11:00","14:00","WDFW survey",48.84882887,-119.0550628,"Okanogan","LOST LAKE",2,"Adult",60,"Productivity successful, number of young known",2,180,22,7,17
+"86","4/5/17","17:45","18:00","WDFW survey",48.88396384,-119.6073223,"Okanogan","PALMER LAKE SE",1,"Adult",4,"Single bird, nest unrepaired or pair not near known nest site",1,15,5,4,17
+"87","7/10/17","15:00","15:15","WDFW survey",48.99036835,-119.2223577,"Okanogan","SIDLEY LAKE 2",1,"Adult",4,"Single bird, nest unrepaired or pair not near known nest site",1,15,10,7,17
+"88","6/8/17","","","WDFW survey",48.88221651,-119.5175947,"Okanogan","WANNACUT LAKE",2,"Adult",5,"Nest occupied, activity unknown",1,NA,8,6,17
+"89","5/31/17","10:00","15:00","WDFW survey",47.97224793,-121.6465737,"Snohomish","SPADA LAKE",2,"Adult",3,"Nest occupancy unknown",0,300,31,5,17
+"90","6/13/17","10:00","12:00","WDFW survey",47.97224793,-121.6465737,"Snohomish","SPADA LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,120,13,6,17
+"91","6/21/17","9:00","14:00","WDFW survey",47.97224793,-121.6465737,"Snohomish","SPADA LAKE",1,"Adult",3,"Nest occupancy unknown",0,300,21,6,17
+"92","7/6/17","9:00","15:00","WDFW survey",47.97224793,-121.6465737,"Snohomish","SPADA LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,360,6,7,17
+"93","7/27/17","9:00","14:00","WDFW survey",48.82571599,-121.051758,"Whatcom","ROSS LAKE DEVILS CREEK",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,300,27,7,17
+"94","7/27/17","9:00","14:00","WDFW survey",48.77431573,-121.0618942,"Whatcom","ROSS LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,300,27,7,17
+"95","7/27/17","9:00","14:00","WDFW survey",48.91377485,-121.0736507,"Whatcom","ROSS LAKE - LITTLE BEAVER CREEK",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,300,27,7,17
+"96","6/26/17","8:00","10:00","WDFW survey",48.68850849,-122.3007715,"Whatcom","LAKE WHATCOM",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,120,26,6,17
+"97","6/26/17","10:00","12:00","WDFW survey",48.75214979,-122.4003672,"Whatcom","LAKE WHATCOM 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,120,26,6,17
+"98","6/28/17","8:00","10:00","WDFW survey",48.86337218,-122.6877461,"Whatcom","LAKE TERRELL",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,120,28,6,17
+"99","4/28/17","10:10","10:15","WDFW survey",48.71004812,-122.3280891,"Whatcom","LAKE LOUISE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,5.00000000000004,28,4,17
+"100","6/26/17","14:00","15:30","WDFW survey",48.71004812,-122.3280891,"Whatcom","LAKE LOUISE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,90,26,6,17
+"101","7/26/17","17:30","19:30","WDFW survey",48.69287357,-121.0991346,"Whatcom","DIABLO LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,120,26,7,17
+"102","6/21/17","12:00","13:30","WDFW survey",48.39822657,-121.9567167,"Skagit","DAY LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,90,21,6,17
+"103","5/3/17","10:20","11:15","Other survey",48.96158424,-121.0339303,"Whatcom","HOZOMEEN LAKE",2,"Adult",6,"Nest occupied, active (breeding)",2,55,3,5,17
+"104","6/27/17","12:19","13:17","Other survey",48.96158424,-121.0339303,"Whatcom","HOZOMEEN LAKE",1,"Adult",5,"Nest occupied, activity unknown",1,58,27,6,17
+"105","7/11/17","16:11","16:55","Other survey",48.96158424,-121.0339303,"Whatcom","HOZOMEEN LAKE",2,"Adult",50,"Productivity unsuccessful or nest empty",1,44.0000000000001,11,7,17
+"106","6/18/17","13:55","14:50","WDFW survey",46.9320169,-122.2791985,"Pierce","CLEAR LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,55.0000000000001,18,6,17
+"107","4/1/17","","","WDFW survey",47.60608621,-121.6787353,"King","CALLIGAN LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,1,4,17
+"108","1/1/17","","","WDFW survey",47.60788166,-121.678497,"King","CALLIGAN LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,1,1,17
+"109","1/1/17","","","WDFW survey",47.60808956,-121.6784726,"King","CALLIGAN LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,1,1,17
+"110","1/1/17","","","WDFW survey",47.59896146,-121.6589717,"King","S.E. CALLIGAN LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,1,1,17
+"111","7/27/17","","","Other survey",47.40867219,-121.7308257,"King","CHESTER MORSE - MASONRY POOL",2,"Adult",5,"Nest occupied, activity unknown",1,NA,27,7,17
+"112","1/1/17","","","Other survey",47.37324006,-121.6532826,"King","CHESTER MORSE - CEDAR RIVER",3,"Adult",3,"Nest occupancy unknown",0,NA,1,1,17
+"113","1/1/17","","","Other survey",47.37429235,-121.6915735,"King","CHESTER MORSE - REX RIVER",3,"Adult",3,"Nest occupancy unknown",0,NA,1,1,17
+"114","4/17/17","","","Other survey",47.30025302,-121.7340389,"King","EAGLE LAKE",1,"Adult",4,"Single bird, nest unrepaired or pair not near known nest site",1,NA,17,4,17
+"115","4/1/17","","","WDFW survey",47.6988465,-121.6712995,"King","SOUTH FORK TOLT RESERVOIR",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,1,4,17
+"116","9/1/17","","","Other survey",47.28883401,-121.7636913,"King","HOWARD HANSON RESERVOIR: N. FORK GREEN RIVER",2,"Juvenile",60,"Productivity successful, number of young known",2,NA,1,9,17
+"117","9/1/17","","","WDFW survey",47.66024456,-121.742058,"King","MUD LAKE SNOQUALMIE TREE FARM",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,1,9,17
+"118","9/1/17","","","WDFW survey",47.70938848,-121.7252682,"King","LYNCH LAKE",2,"Adult",50,"Productivity unsuccessful or nest empty",1,NA,1,9,17
+"119","4/1/17","","","WDFW survey",47.583206,-121.755296,"King","KLAUS LAKE",4,"Adult",3,"Nest occupancy unknown",0,NA,1,4,17
+"120","4/1/17","","","Other survey",47.27573812,-121.767785,"King","EAGLE GORGE / HOWARD HANSON RES",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,1,4,17
+"121","4/1/17","","","WDFW survey",47.64590875,-121.7278169,"King","BLACK LAKE",1,"Adult",4,"Single bird, nest unrepaired or pair not near known nest site",1,NA,1,4,17
+"122","4/1/17","","","WDFW survey",47.43047646,-121.774894,"King","RATTLESNAKE LAKE",2,"Adult",3,"Nest occupancy unknown",0,NA,1,4,17
+"123","4/1/17","","","WDFW survey",47.57023855,-121.6756932,"King","HANCOCK LAKE",2,"Adult",3,"Nest occupancy unknown",0,NA,1,4,17
+"124","7/29/17","","","WDFW survey",47.602487,-121.67355,"King","S.E. CALLIGAN LAKE",1,"Juvenile",60,"Productivity successful, number of young known",2,NA,29,7,17
+"125","5/27/17","","","WDFW survey",48.1118796,-124.2461045,"Clallam","BEAVER LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,27,5,17
+"126","6/22/17","","","WDFW survey",48.1118796,-124.2461045,"Clallam","BEAVER LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,22,6,17
+"127","6/16/17","9:50","13:10","WDFW survey",48.13919898,-124.6445013,"Clallam","LAKE OZETTE",1,"Adult",4,"Single bird, nest unrepaired or pair not near known nest site",1,200,16,6,17
+"128","7/7/17","8:00","13:00","WDFW survey",48.13919898,-124.6445013,"Clallam","LAKE OZETTE",9,"Adult",5,"Nest occupied, activity unknown",1,300,7,7,17
+"129","4/21/17","","","Other survey",47.49467483,-123.2788856,"Mason","LAKE CUSHMAN",22,"Adult",5,"Nest occupied, activity unknown",1,NA,21,4,17
+"130","4/29/17","","","Other survey",47.49467483,-123.2788856,"Mason","LAKE CUSHMAN",8,"Adult",5,"Nest occupied, activity unknown",1,NA,29,4,17
+"131","8/28/17","","","Other survey",47.49467483,-123.2788856,"Mason","LAKE CUSHMAN",2,"Adult",5,"Nest occupied, activity unknown",1,NA,28,8,17
+"132","8/28/17","","","Other survey",47.49467483,-123.2788856,"Mason","LAKE CUSHMAN",1,NA,5,"Nest occupied, activity unknown",1,NA,28,8,17
+"133","5/9/17","15:30","17:30","WDFW survey",47.02240903,-122.7983812,"Thurston","HICKS LAKE",1,"Adult",3,"Nest occupancy unknown",0,120,9,5,17
+"134","5/9/17","8:30","11:30","WDFW survey",46.98690385,-122.9799702,"Thurston","BLACK LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,180,9,5,17
+"135","5/19/17","12:45","15:43","WDFW survey",46.7664657,-122.2119795,"Thurston","ALDER LAKE 5",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,178,19,5,17
+"136","5/30/17","10:15","13:45","WDFW survey",46.7664657,-122.2119795,"Thurston","ALDER LAKE 5",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,210,30,5,17
+"137","5/30/17","7:45","11:30","WDFW survey",46.7664657,-122.2119795,"Thurston","ALDER LAKE 5",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,225,30,5,17
+"138","5/9/17","12:30","15:00","WDFW survey",46.993488,-122.7747462,"Thurston","PATTISON LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,150,9,5,17
+"139","6/6/17","16:00","18:30","WDFW survey",46.993488,-122.7747462,"Thurston","PATTISON LAKE",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,150,6,6,17
+"140","1/1/17","","","Other survey",48.28598253,-118.3973495,"Ferry","NORTH TWIN LAKE 2",NA,"",8,"Nest unoccupied, no birds, nest unrepaired",0,NA,1,1,17
+"141","1/1/17","","","Other survey",48.29136164,-118.3258077,"Ferry","ROUND LAKE",2,"Juvenile",60,"Productivity successful, number of young known",2,NA,1,1,17
+"142","1/1/17","","","Other survey",48.24822341,-118.3869712,"Ferry","SOUTH TWIN LAKE 2",1,"Juvenile",60,"Productivity successful, number of young known",2,NA,1,1,17
+"143","1/1/17","","","Other survey",48.24822341,-118.3869712,"Ferry","SOUTH TWIN LAKE 2",2,"Adult",60,"Productivity successful, number of young known",2,NA,1,1,17

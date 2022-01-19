@@ -1,21 +1,26 @@
-setwd("/Users/sipeh/Desktop/eBird dataset/ArraysforModels")
-al<-read.csv("/Users/sipeh/Desktop/eBird dataset/FormattedData/all_occ_data.csv")
-sites<-read.csv("/Users/sipeh/Desktop/eBird dataset/FormattedData/sites_ebd.csv")
-mdnumeric<-read.csv("/Users/sipeh/Desktop/eBird dataset/FormattedData/mdnumeric.csv")
+all<-read.csv("data/all_occ_data.csv")
 
 
 # add one to observations, so 0 becomes 1, 1 -> 2, for use in the model
-al$Common.Loon<-al$Common.Loon+1
-
-# al$Common.Loon[which(al$protocol_t=="WDFW survey")] <-al$Common.Loon[which(al$protocol_t=="WDFW survey")]+2
-# al$Common.Loon[which(al$protocol_t=="Other survey")] <-al$Common.Loon[which(al$protocol_t=="Other survey")]+2
+all$Common.Loon<-all$Common.Loon+1
 
 
-
-
-#array for observations, in20, LABsPres, LABsum, time_obs
+#array for observations, time_obs
 # protocol, duration, eff_dis, eff_are
 
+#number of days for each year in the summer months, to order observations by
+mdnumeric<-seq(1,92,by=1)
+unmd<-unique(all$Date[which(all$year==2017)])
+mdnumeric<-cbind(mdnumeric, unmd)
+MD<-numeric(length(all$Date))
+all<-cbind(all,MD)
+for(i in 1:length(all$Date)){
+  for(j in 1:length(mdnumeric[,1])){
+    if(all$Date[i]==mdnumeric[j,2]){
+      all$MD[i]<-mdnumeric[j,1]
+    }else{}
+  }
+}
 
 yarray<-function(){
   yrs<-seq(1,18, by=1)
@@ -147,7 +152,7 @@ yarray<-function(){
       }
     }
   }
-  return(list(y=y,in20=in20, LABsPres=LABsPres, LABsum=LABsum, timeobs=timeobs,
+  return(list(y=y, timeobs=timeobs,ind=ind,
               dur_m=dur_m, protocol=protocol, effort_areaHa=effort_areaHa,
               effort_diskm=effort_diskm))
 }
@@ -202,7 +207,7 @@ zinit<-function(){
 }
 z<-zinit()
 
-#output to RData
-##HERE
+#Data output to an RData object
+
 
 
