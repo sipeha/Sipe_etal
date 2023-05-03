@@ -7,7 +7,7 @@ library(data.table)
 # 
 # out2<-(as.data.frame(fread(file="VS2", sep=",", quote='"',
 #                            header=T, data.table=T)[,]))
-# 
+
 
 
 x11<-as.mcmc(out1[,-1]) #remove first column which is the index from 1:nsamples
